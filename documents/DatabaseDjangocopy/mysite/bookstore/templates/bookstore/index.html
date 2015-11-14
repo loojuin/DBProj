@@ -1,1 +1,7 @@
-<p>Hello World</p>
+<p>Hello World, these are all the books</p>
+
+<ul>
+{% for book in booklist %}
+	<li><a href="/bookstore/{{book.id}}">{{book.title}}</a></li>
+{% endfor %}
+</ul>
