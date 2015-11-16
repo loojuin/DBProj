@@ -1,0 +1,19 @@
+<html>
+    <head>
+    </head>
+    <body>
+        {% if tups|length != 0 %}
+        <table>
+            {% for tup in tups %}
+            <tr>
+                {% for ind in tup %}
+                <td>{{ ind }}</td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </table>
+        {% else %}
+        <p>There are no entries that match the name.</p>
+        {% endif %}
+    </body>
+</html>
