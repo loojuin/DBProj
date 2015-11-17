@@ -1,7 +1,30 @@
-<p>Hello World, these are all the books</p>
-
-<ul>
-{% for book in booklist %}
-	<li><a href="/bookstore/{{book.id}}">{{book.title}}</a></li>
-{% endfor %}
-</ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Database Bookstore</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="page-header">
+		  <h1>Here is a list of all the books</h1>
+		</div>
+		<div class="row">
+		{% for book in booklist %}
+		  <div class="col-sm-6 col-md-4">
+		    <div class="thumbnail">
+		      <img src="..." alt="...">
+		      <div class="caption">
+		        <h3>{{book.title}}</h3>
+		        <p>Here goes a description of the book limited to some short string length. The user will have to click more to view more</p>
+		        <p><a href="#" class="btn btn-primary" role="button">Buy Now</a> 
+		        	<a href="/bookstore/{{book.id}}" class="btn btn-default" role="button">More Info</a></p>
+		      </div>
+		    </div>
+		  </div>
+		{% endfor %}
+		</div>
+	</div>
+</body>
+</html>
