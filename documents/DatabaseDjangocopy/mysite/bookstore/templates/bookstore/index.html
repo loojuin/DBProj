@@ -7,9 +7,26 @@
 </head>
 <body>
 	<div class="container">
-		<div class="page-header">
-		  <h1>Here is a list of all the books</h1>
-		</div>
+		
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+			    <div class="navbar-header">
+			    	<a class="navbar-brand" href="#">
+		      		  Le Bookstore
+		     		</a>
+			    </div>
+			    <form class="navbar-form navbar-left">
+				  <div class="input-group">
+			  		<input type="text" class="form-control" placeholder="J.K Rowling, The Da Vinci Code...">
+				    <span class="input-group-btn">
+				        <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+				    </span>
+				  </div>
+				</form>
+				<button type="button" class="btn btn-success navbar-btn navbar-right">Sign in</button>
+			</div>
+		</nav>
+		
 		<div class="row">
 		{% for book in booklist %}
 		  <div class="col-sm-6 col-md-4">
