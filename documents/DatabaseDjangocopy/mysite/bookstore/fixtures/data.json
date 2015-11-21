@@ -1,0 +1,17 @@
+[
+  {
+    "model": "bookstore.Customer",
+    "pk": 1,
+    "fields": {
+      "login_name": "John",
+      "pwd": "database",
+      "surname": "lee",
+      "given_name":"johnjohn",
+      "credit_card":"a123",
+      "address":"singapore",
+      "phoneno":999
+    }
+  }
+]
+
+
