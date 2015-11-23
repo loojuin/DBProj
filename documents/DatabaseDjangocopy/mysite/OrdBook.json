@@ -1,0 +1,20 @@
+[
+{
+  "model": "bookstore.ordbook",
+  "pk": 1,
+  "fields": {
+    "oid": 1,
+    "book": "999999999123A",
+    "qty": 5
+  }
+},
+{
+  "model": "bookstore.ordbook",
+  "pk": 2,
+  "fields": {
+    "oid": 1,
+    "book": "12221133225555",
+    "qty": -2
+  }
+}
+]

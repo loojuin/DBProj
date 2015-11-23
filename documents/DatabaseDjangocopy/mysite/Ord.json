@@ -1,0 +1,29 @@
+[
+{
+  "model": "bookstore.ord",
+  "pk": 1,
+  "fields": {
+    "customer": "John",
+    "timestmp": "2009-11-13T20:00:00Z",
+    "stat": "A12345"
+  }
+},
+{
+  "model": "bookstore.ord",
+  "pk": 2,
+  "fields": {
+    "customer": "John",
+    "timestmp": "2009-11-13T20:00:00Z",
+    "stat": "A12345"
+  }
+},
+{
+  "model": "bookstore.ord",
+  "pk": 3,
+  "fields": {
+    "customer": "John",
+    "timestmp": "2009-11-13T20:00:00Z",
+    "stat": "A12345"
+  }
+}
+]

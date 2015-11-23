@@ -1,0 +1,29 @@
+[
+{
+  "model": "bookstore.rate",
+  "pk": 1,
+  "fields": {
+    "rater": "John",
+    "opinion": 3,
+    "rating": 8
+  }
+},
+{
+  "model": "bookstore.rate",
+  "pk": 2,
+  "fields": {
+    "rater": "Glenn",
+    "opinion": 3,
+    "rating": 15
+  }
+},
+{
+  "model": "bookstore.rate",
+  "pk": 3,
+  "fields": {
+    "rater": "John",
+    "opinion": 2,
+    "rating": -2
+  }
+}
+]

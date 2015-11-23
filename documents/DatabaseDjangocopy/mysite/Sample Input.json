@@ -50,27 +50,44 @@
       "stat": "A12345"
     }
   },
- 
   
   {
-  "model": "bookstore.opinion",
-  "pk": 1,
-  "fields": {
-    "customer": "Glenn",
-    "book": "12221133225555",
-    "score": 12,
-    "txt": "This book is good! "
+    "model":"bookstore.OrdBook",
+    "fields":{
+      "oid":2,
+      "book":"12221133225555",
+      "qty": 5
     }
   },
   {
-  "model": "bookstore.ordbook",
-  "pk": 2,
-  "fields": {
-    "oid": 1,
-    "book": "12221133225555",
-    "qty": -2
+    "model": "bookstore.Opinion",
+    "fields":{
+      "customer":"John", 
+      "book":"12221133225555",
+      "score":5,
+      "txt":"This book is good! "
+    }
+  },
+
+  {
+    "model": "bookstore.Opinion",
+    "fields":{
+      "customer":"Glenn", 
+      "book":"2441-2444-2411",
+      "score":5,
+      "txt":"This book is good! "
+    }
+  },
+  {
+    "model": "bookstore.Opinion",
+    "fields":{
+      "customer":"John", 
+      "book":"2441-2444-2411",
+      "score":5,
+      "txt":"This book is good! "
+    }
   }
-}
+  
 
 
 
