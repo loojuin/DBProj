@@ -11,6 +11,36 @@
       "address":"singapore",
       "phoneno":999
     }
+  }, 
+  {
+    "model": "bookstore.Customer",
+    "pk": 2,
+    "fields": {
+      "login_name": "Glenn",
+      "pwd": "database",
+      "surname": "lee",
+      "given_name":"johnjohn",
+      "credit_card":"a123",
+      "address":"singapore",
+      "phoneno":999
+    }
+  },
+  {
+    "model": "bookstore.Book",
+    "pk": 1,
+    "fields": {
+     
+      "isbn": "999999999123A",
+      "title": "Introduction to database",
+      "author":"johnjohn",
+      "frmt":"a123",
+      "publisher":"penguin",
+      "yr":1999,
+      "sbj":"database",
+      "keywords":"storage",
+      "price": 59.90,
+      "copies": 3
+    }
   }
 ]
 

@@ -16,7 +16,6 @@ class Customer(models.Model):
 
 class Book(models.Model):
     formats = (("H", "Hardcover"), ("S", "Softcover"))
-
     isbn = models.CharField(max_length = 14, primary_key = True)
     title = models.CharField(max_length = 128, null = True)
     author = models.CharField(max_length = 128, null = True)

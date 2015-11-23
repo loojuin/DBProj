@@ -1,0 +1,77 @@
+[
+{
+  "model": "bookstore.book",
+  "pk": "12221133225555",
+  "fields": {
+    "title": "Freakonomics",
+    "author": null,
+    "frmt": null,
+    "publisher": null,
+    "yr": null,
+    "sbj": null,
+    "keywords": null,
+    "price": null,
+    "copies": 0
+  }
+},
+{
+  "model": "bookstore.book",
+  "pk": "12224445521151",
+  "fields": {
+    "title": "Da Vinci Code",
+    "author": null,
+    "frmt": null,
+    "publisher": null,
+    "yr": null,
+    "sbj": null,
+    "keywords": null,
+    "price": null,
+    "copies": 0
+  }
+},
+{
+  "model": "bookstore.book",
+  "pk": "1552-1225-4456",
+  "fields": {
+    "title": "Harry Potter ",
+    "author": null,
+    "frmt": null,
+    "publisher": null,
+    "yr": null,
+    "sbj": null,
+    "keywords": null,
+    "price": null,
+    "copies": 0
+  }
+},
+{
+  "model": "bookstore.book",
+  "pk": "2441-2444-2411",
+  "fields": {
+    "title": "Lord of the Rings",
+    "author": null,
+    "frmt": null,
+    "publisher": null,
+    "yr": null,
+    "sbj": null,
+    "keywords": null,
+    "price": null,
+    "copies": 0
+  }
+},
+{
+  "model": "bookstore.book",
+  "pk": "999999999123A",
+  "fields": {
+    "title": "Introduction to database",
+    "author": "johnjohn",
+    "frmt": "a123",
+    "publisher": "penguin",
+    "yr": 1999,
+    "sbj": "database",
+    "keywords": "storage",
+    "price": 59.9,
+    "copies": 3
+  }
+}
+]
