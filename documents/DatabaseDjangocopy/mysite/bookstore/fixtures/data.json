@@ -29,7 +29,6 @@
     "model": "bookstore.Book",
     "pk": 1,
     "fields": {
-     
       "isbn": "999999999123A",
       "title": "Introduction to database",
       "author":"johnjohn",
@@ -70,8 +69,19 @@
     "book": "12221133225555",
     "qty": -2
   }
-}
-
+},
+{
+    "model": "bookstore.Customer",
+    "pk": "ZiKang",
+    "fields": {
+      "pwd": "database",
+      "surname": "lee",
+      "given_name":"Zikang",
+      "credit_card":"a123",
+      "address":"singapore",
+      "phoneno":999
+    }
+  }
 
 
 ]

@@ -22,5 +22,17 @@
     "address": "singapore",
     "phoneno": 999
   }
+},
+{
+  "model": "bookstore.customer",
+  "pk": "ZiKang",
+  "fields": {
+    "pwd": "database",
+    "surname": "lee",
+    "given_name": "Zikang",
+    "credit_card": "a123",
+    "address": "singapore",
+    "phoneno": 999
+  }
 }
 ]
